@@ -1,0 +1,94 @@
+/* General reset to remove default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+/* Body styling */
+body {
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark gray text */
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #fd0d71; /* Your favorite color */
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Main content area */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the <ul> while keeping bullet points */
+main ul {
+    list-style-type: disc; /* Keep default bullet points */
+    margin: 0 auto; /* Center the list horizontally */
+    padding: 0; /* Reset default padding */
+    width: fit-content; /* Adjust width to fit the content */
+    text-align: left; /* Ensure bullet points and text are aligned */
+}
+
+/* Optional: Style the list items */
+main ul li {
+    margin: 10px 0; /* Add space between list items */
+}
+
+/* Optional: Style the links */
+main ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set default link color */
+}
+
+main ul li a:hover {
+    color: #fd0d71; /* Add hover effect */
+}
+
+/* Buttons */
+button {
+    background-color: #fd0d71; /* Match your header color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e30b65;
+}
+
+/* Links */
+a {
+    color: #fd0d71;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+}
